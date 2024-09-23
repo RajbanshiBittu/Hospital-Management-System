@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src="hospitech-logo.png" alt="Logo">
+          </div>
+          
+          <nav>
+            <ul>
+              <li><a href="#home-section"><i class="fa-solid fa-house"></i> Home</a></li>
+              <li><a href="#About-section"><i class="fa-regular fa-address-card"></i> About</a></li>
+              <li><a href="#services"><i class="fa-brands fa-servicestack"></i> Services</a></li>
+              <li><a href="#doctor-section"><i class="fa-solid fa-user-doctor"></i> Doctors</a></li>
+              <li><a href="#appointment-section"><i class="fa-regular fa-calendar-check"></i> Appointments</a></li>
+              <li><a href="#contact-section"><i class="fa-regular fa-address-book"></i> Contact</a></li>
+            </ul>
+          </nav>
+          <div class="signin-button">
+            <button><a href="login.html">Sign In</a></button>
+          </div>
+
+          <!-- <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search...">
+          <button id="search-button">Search</button>
+        </div> -->
+      </header>
+
+      <!-- home section -->
+
+      <section class="home-section" id="home-section">
+         <div class="main-heading">
+            <h2> <strong>Your Partner In Health <br/> and Wellness</strong></h2>
+         </div>
+         <div class="sub-heading">
+            <h4>It is a long established fact that a reader will bw distracted readable content of a page when looking at this layout. This point of using lobe ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</h4>
+         </div>
+
+         <button type="submit"><a href="bookAppointment.html">BOOK AN APPOINMENT</a></button>
+      </section>
+
+      <!-- About section -->
+       <section id="About-section" class="About-section">
+        <div class="about">
+            <div class="header">
+                <h2>Our Story</h2>
+                <p>"Welcome to HospiTech, your trusted partner in healthcare innovation. We are a cutting-edge medical technology company dedicated to improving patient care and streamlining clinical workflows. Our mission is to harnless the power of technology to create a healthier future for all. Explore our website to learn more about our innovative solutions, expert team, and commitment to excellence in healthcare"</p>
+            </div>
+            <div class="header">
+                <h2>Mission</h2>
+                <ol>
+                    <li>"Empowering healthcare providers with innovative technology solutions to deliver exceptional patient care and improve outcomes."</li>
+                    <li>"Transforming the healthcare landscape through cutting-edge technology, expertise, and collaboration."</li>
+                    <li>"Simplifying healthcare complexity with intuitive solutions, enhancing the patient experience and provide workflows."</li>
+                    <li>"Innovating for a healthcare future: advancing medical technology to improve lives and communities."</li>
+                    <li>"Partnering with healthcare professionals to develop and implement medical technology solutions that elevate care, efficiency, and compassion."</li>
+                </ol>
+            </div>
+        </div>
+        <div class="slide-container">
+          <div class="slides">
+            <img src="image1.jpg" alt="Not Available" srcset="" class="active">
+            <img src="image2.jpg" alt="Not Available" srcset="">
+            <img src="image3.jpg" alt="Not Available" srcset="">
+            <img src="image4.jpg" alt="Not Available" srcset="">
+            <img src="image5.jpg" alt="Not Available" srcset="">
+            <img src="image6.jpg" alt="Not Available" srcset="">
+            <img src="image7.jpg" alt="Not Available" srcset="">
+          </div>
+          <div class="buttons">
+            <span class="next">&#10095;</span>
+            <span class="prev">&#10094;</span>
+          </div>
+          <div class="dotsContainer">
+            <div class="dot active" attr="0" onclick="switchImage(this)"></div>
+            <div class="dot" attr="1" onclick="switchImage(this)"></div>
+            <div class="dot" attr="2" onclick="switchImage(this)"></div>
+            <div class="dot" attr="3" onclick="switchImage(this)"></div>
+            <div class="dot" attr="4" onclick="switchImage(this)"></div>
+            <div class="dot" attr="5" onclick="switchImage(this)"></div>
+            <div class="dot" attr="6" onclick="switchImage(this)"></div>
+          </div>
+        </div>
+       </section>
+
+       <!-- custom service section -->
+
+        <section class="services" id="services">
+           <h1 class="service-head">Our healthcare Services</h1>
+           <h4 class="service-sub-head">Is is a ling established fact that will be distracted by the readable <br/> content of the page when looking at its layout.</h4>
+
+           <div class="service-container">
+            <div class="service-container-first">
+              <div class="box box1">
+                <div class="image">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="content">
+                  <h4><a href="#">Emergency Department</a></h4>
+                  <p><a href="#">If you use this site regularly and would like so</a></p>
+                </div>
+              </div>
+              <div class="box box2">
+                <div class="image">
+                  <i class="fa-solid fa-child-reaching"></i>
+                </div>
+                <div class="content">
+                  <h4><a href="#"></a>Pediatric Department</h4>
+                  <p><a href="#">If you use this site regularly and would like so</a></p>
+                </div>
+              </div>
+              <div class="box box3">
+                <div class="image">
+                  <i class="fa-solid fa-stethoscope"></i>
+                </div>
+                <div class="content">
+                  <h4><a href="#">General Physician</a></h4>
+                  <p><a href="#">If you use this site regularly and would like so</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="service-container-second">
+              <div class="box box4">
+                <div class="image">
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="content">
+                  <h4><a href="#">Cardiology Department</a></h4>
+                  <p><a href="#">If you use this site regularly and would like so</a></p>
+                </div>
+              </div>
+              <div class="box box5">
+                <div class="image">
+                  <i class="fa-solid fa-brain"></i>
+                </div>
+                <div class="content">
+                  <h4><a href="#">Neurology Department</a></h4>
+                  <p><a href="#">If you use this site regularly and would like so</a></p>
+                </div>
+              </div>
+              <div class="box box6">
+                  <div class="image">
+                    <i class="fa-solid fa-truck-medical"></i>
+                  </div>
+                  <div class="content">
+                    <h4><a href="#">Ambulence Service</a></h4>
+                    <p><a href="#">If you use this site regularly and would like so</a></p>
+                  </div>
+              </div>
+            </div>
+           </div>
+        </section>
+
+        <!-- custom doctor section  -->
+
+        <section class="doctor-section" id="doctor-section">
+          
+        </section>
+
+        <!-- custom Appointment section  -->
+
+        <section class="appointment-section" id="appointment-section">
+
+        </section>
+
+        <!-- custom contact section  -->
+         <section class="contact-section" id="contact-section">
+          <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="38ff2e2f-3412-4e36-8ec0-b74b9ee2485d">
+                <input type="text" name="name" class="contact-inputs" placeholder="Your Name" required/>
+                <input type="text" name="email" class="contact-inputs" placeholder="Your Email" required/>
+                <textarea name="message"  class="contact-inputs" id="" placeholder="Your Mesage"></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+    
+            </div>
+        </div>
+         </section>
+
+
+        <!-- footer section  -->
+         <footer>
+          <div class="footer">
+          <div class="first-footer">
+            <div class="logo">
+              <img src="hospitech-logo.png" alt="Logo">
+            </div>
+            <div class="para">
+              <p>HospiTech, the best diagnostic, healthcare centre in Malda. Its journey with a mission to provide quality healthcare, at an affordable cost for.......more</p>
+            </div>
+            <div class="links">
+              <p>Follow us on</p>
+              <div class="social-button">
+                <div class="social">
+                  <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="social">
+                  <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="social">
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="social">
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="social">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="second-footer">
+            <h2>Information</h2>
+            <ul>
+              <li><a href="#home-section">Home</a></li>
+              <li><a href="#About-section">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact-section">Contact</a></li>
+            </ul>
+          </div>
+          <div class="third-footer">
+            <h2>Customer Service</h2>
+            <ul>
+              <li><a href="#">Online Report</a></li>
+              <li><a href="#">Test Booking</a></li>
+              <li><a href="#">Home Service</a></li>
+              <li><a href="#">Doctor Booking</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="last-footer">
+          <p>@2024 Copyright HospiTech Healthcare Pvt. Ltd. All rights Reserved</p>
+        </div>
+         </footer>
+
+    <script src="Logic.js"></script>
+    <!-- <script src="User.js"></script>
+    <script src="app.js"></script> -->
+</body>
+</html>
